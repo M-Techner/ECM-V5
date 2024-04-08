@@ -6,6 +6,7 @@ import { SellYourHorseComponent } from './sell-your-horse/sell-your-horse.compon
 import { OtherServicesComponent } from './other-services/other-services.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 export const routes: Routes = [
 {path: '', redirectTo: '/home', pathMatch: 'full'},
 {path: 'home' , component: HomeComponent},
